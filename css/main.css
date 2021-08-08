@@ -1,0 +1,205 @@
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+    flex-basis: auto;
+    margin: 0 auto;
+   
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  
+    
+   max-width: 1200px;
+   width: 90%;
+    
+	
+    
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+  
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+	font-size: 1.125em;
+}
+h3 {
+	font-size: 0.75em;
+}
+
+p {
+	font-size: 0.875em;
+	line-height: 1.313em;
+    text-align: left;
+}
+
+/*The widths are in a percentage!*/
+header {
+    align-items: center;
+	border-bottom: 0.188em solid #77a466;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex-basis: auto;
+    width:100%;
+	
+}
+
+header h1 {
+    border-bottom: 0.09em solid #77a466;
+    margin-bottom: 0;
+	padding: 1.2em 0.2em .3em .2em;
+    width: 90%;
+
+    
+}	
+
+
+
+header h1 span {
+	color: #77a466;
+}
+
+header nav ul {
+	padding: 0;
+    list-style: none;
+  
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875em;
+	padding: 1em;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+    
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+    
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex-basis: auto;
+	
+	
+}
+
+.main-image {
+	height: auto;
+	margin: 0 auto;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 0.188em solid #77a466;
+}
+
+.main-title {
+	height: auto;
+
+}
+.main-title h2 {
+	text-align: left;
+	color: #77a466;
+}
+.main-title p {
+	font-size: 1em;
+	line-height: 1.563em;
+    padding-top: 1em;
+    text-align: left;
+}
+
+.section-one,
+.section-two,
+.section-three {
+      
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    
+    
+ width: 100%;
+	height: auto;
+    
+	
+	border-top: 0.063em solid #eee;
+}
+
+.section-one,
+.section-two,
+.section-three h3 {
+	padding: 0.3em 0;
+    text-align: left;
+    width: 100%;
+}
+
+
+
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 0.625em 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.313em;
+}
+
+.address p {
+	font-size: 1em;
+	line-height: 1.5em;
+    
+}
+
+/*The widths are in a percentage!*/
+footer {
+    align-items: center;
+	
+	border-top: 0.188em solid #eee;
+    display: flex;
+    justify-content: center;
+	margin: 0 auto;
+	
+	text-align: center;
+    width:100%;
+    padding: 0.75em 0;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
+}
